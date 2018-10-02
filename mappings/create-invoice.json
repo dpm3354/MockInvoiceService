@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/invoices"
+  },
+  "response": {
+    "status": 200,
+    "transformers": ["response-template"],
+    "jsonBody": "{{{request.body}}}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
