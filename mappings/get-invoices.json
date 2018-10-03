@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/invoices"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "invoiceNo":"10030",
+        "companyName":"Installed toilet handle.",
+        "typeOfWork":"Plumbing",
+        "status":"Draft",
+        "price":"75.00",
+        "comment":"stanky",
+        "dueDate":"2016-04-30"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
