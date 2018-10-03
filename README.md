@@ -21,3 +21,8 @@
 or override the actual service
 
     docker build -t invoice-service .
+    
+### Running
+
+    # create a temporary container named "mock-invoice-service" and expose it on "$HOST:8082"
+    docker run --rm --name mock-invoice-service -d -p "8082:8082" mock-invoice-service
