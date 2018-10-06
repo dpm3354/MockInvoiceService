@@ -1,14 +1,12 @@
 {
   "scenarioName": "invoices manager",
-  "newScenarioState": "created",
   "request": {
-    "method": "POST",
+    "method": "GET",
     "url": "/invoices"
   },
   "response": {
     "status": 200,
-    "transformers": ["response-template"],
-    "jsonBody": "{{{request.body}}}",
+    "jsonBody": [],
     "headers": {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*"

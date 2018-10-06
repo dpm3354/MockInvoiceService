@@ -1,4 +1,6 @@
 {
+  "scenarioName": "invoices manager",
+  "requiredScenarioState": "created",
   "request": {
     "method": "GET",
     "url": "/invoices"
@@ -11,7 +13,7 @@
         "companyName":"Installed toilet handle.",
         "typeOfWork":"Plumbing",
         "status":"Draft",
-        "price":"75.00",
+        "price":"75",
         "comment":"stanky",
         "dueDate":"2016-04-30"
       }

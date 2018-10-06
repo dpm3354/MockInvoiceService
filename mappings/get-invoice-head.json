@@ -2,7 +2,7 @@
   "scenarioName": "invoices manager",
   "request": {
     "method": "OPTIONS",
-    "url": "/invoices"
+    "urlPattern": "/invoices/(.*)"
   },
   "response": {
     "status": 200,

@@ -1,14 +1,13 @@
 {
   "scenarioName": "invoices manager",
-  "newScenarioState": "created",
+  "newScenarioState": "deleted",
   "request": {
-    "method": "POST",
-    "url": "/invoices"
+    "method": "DELETE",
+    "urlPattern": "/invoices(.*)"
   },
   "response": {
     "status": 200,
-    "transformers": ["response-template"],
-    "jsonBody": "{{{request.body}}}",
+    "jsonBody": "{}",
     "headers": {
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*"
